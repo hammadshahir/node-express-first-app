@@ -1,0 +1,17 @@
+{
+    "name": "express-first-app",
+    "version": "1.0.0",
+    "description": "First app in Node/Express",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Hammad Hassan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodemon": "^3.0.1"
+    }
+}
