@@ -80,26 +80,6 @@ const cb3 = (res, req) => {
 app.get("/array-cb", [cb1, cb2, cb3]);
 
 
-// STUDENT routes example
-
-app.get('/student', (req, res) => {
-    res.send('All students');
-});
-
-app.post('/student/id', (req, res) => {
-    console.log("Add a new student");
-    res.send('Add new student');
-});
-
-app.put('student/id', (req, res) => {
-    res.send('Update student');
-});
-
-app.delete('/student/id', (req, res) => {
-    res.send('Delete student');
-});
-
-
 // List at port
 app.listen(8500, (req, res) => {
     console.log("Hallo from Express.js");
